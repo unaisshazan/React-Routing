@@ -24,6 +24,7 @@ import Button from '@material-ui/core/Button';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+  
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -42,7 +43,8 @@ export default function ButtonAppBar() {
         <Toolbar>
         <Button color="inherit" href='/'>Home</Button>
         <Button color="inherit" href='/about'>About</Button>
-          <Button color="inherit" href='/product'>Product</Button>
+        <Button color="inherit" href='/product'>Product</Button>
+          
         </Toolbar>
       </AppBar>
     </div>
