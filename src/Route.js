@@ -4,14 +4,14 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Product from './Components/Product';
 import ProductItem from './Components/ProductItem';
-
+import NavBar from './Components/Navbar';
 
 function RouteConfig() {
 
   return (
 	<div>
         <Router>
-          
+          <NavBar />
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={About}/>
