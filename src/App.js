@@ -1,12 +1,13 @@
 import React from 'react';
-import Routes from './Route'
 import './App.css';
+import Routes from './Route.js';
 
 function App() {
+
   return (
-    <div>
-     <Routes />
-    </div>
+	<div>
+		<Routes />
+	</div>
   );
 }
 
