@@ -28,6 +28,8 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButton: {
     marginRight: theme.spacing(2),
+    alignItems:"center",
+    textAlign:"center",
   },
   title: {
     flexGrow: 1,
@@ -40,7 +42,7 @@ export default function ButtonAppBar() {
   return (
     <div className={classes.root}>
       <AppBar position="relative">
-        <Toolbar>
+        <Toolbar >
         <Button color="inherit" href='/'>Home</Button> 
         <Button color="inherit" href='/about'>About</Button>
         <Button color="inherit" href='/product'>Product</Button>
