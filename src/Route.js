@@ -5,7 +5,7 @@ import About from './Components/About';
 import Product from './Components/Product';
 import ProductItem from './Components/ProductItem';
 import NavBar from './Components/Navbar'; //switch use for specif router so use exact keyword to match the exact keyword / when slash render home
-
+// * use to return 404 not found
 function RouteConfig() {
 
   return (
