@@ -4,7 +4,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Product from './Components/Product';
 import ProductItem from './Components/ProductItem';
-import NavBar from './Components/Navbar';
+import NavBar from './Components/Navbar'; //switch use for specif router so use exact keyword to match the exact keyword / when slash render home
 
 function RouteConfig() {
 
@@ -13,7 +13,7 @@ function RouteConfig() {
         <Router>
           <NavBar />
             <Switch>
-                <Route exact path="/" component={Home}/>
+                <Route exact path="/" component={Home}/> 
                 <Route path="/about" component={About}/>
                 <Route exact path="/product" component={Product}/>
                 <Route path="/product/:id" component={ProductItem}/>
