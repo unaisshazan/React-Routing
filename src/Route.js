@@ -5,7 +5,7 @@ import About from './Components/About';
 import Product from './Components/Product';
 import ProductItem from './Components/ProductItem';
 import NavBar from './Components/Navbar';
-
+// direct html return nh hoga arrow function use hoga
 function RouteConfig() {
 
   return (
