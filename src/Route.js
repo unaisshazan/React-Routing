@@ -14,7 +14,10 @@ function RouteConfig() {
     <div >
    <Router>
    <switch>
-   <Route path="/" component={}/>
+   <Route path="/" component={Home}/>
+   <Route path="/about" component={About}/>
+   <Route path="/product" component={Product}/>
+   <Route path="/productitem" component={ProductItem}/>
    </switch>
    </Router>
     </div>
