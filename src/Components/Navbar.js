@@ -39,9 +39,9 @@ export default function ButtonAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="relative">
         <Toolbar>
-        <Button color="inherit" href='/'>Home</Button>
+        <Button color="inherit" href='/'>Home</Button> 
         <Button color="inherit" href='/about'>About</Button>
         <Button color="inherit" href='/product'>Product</Button>
           
