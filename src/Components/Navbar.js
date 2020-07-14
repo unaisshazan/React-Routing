@@ -44,7 +44,7 @@ export default function ButtonAppBar() {
       <AppBar position="relative">
         <Toolbar >
         <Button color="inherit" href='/'>Home</Button> 
-        <Button color="inherit" href='/about'>About</Button>
+        <Button color="inherit" href='/about'></Button>
         <Button color="inherit" href='/product'>Product</Button>
           
         </Toolbar>
